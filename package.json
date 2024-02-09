@@ -1,6 +1,6 @@
 {
   "name": "jibiki",
-  "private": true,
+  "private": true, "proxy": "https://localhost:5173/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -17,5 +19,10 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "vite": "^4.1.0"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
